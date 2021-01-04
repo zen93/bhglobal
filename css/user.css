@@ -1,0 +1,21 @@
+input[type="button"] {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+.success {
+  color: green;
+  font: 1.2em bold;
+}
+.errorMsg {
+  color: red;
+  font: 1.2em bold;
+}
+.error {
+  text-align: left;
+}
+
+.labelblock {
+  min-width: 100px;
+  display: inline-block;
+  margin: auto;
+}

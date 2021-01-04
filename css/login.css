@@ -1,0 +1,29 @@
+#loginform {
+  width: 350px;
+  margin: auto;
+}
+#title {
+  text-align: center;
+}
+
+#forgot {
+  margin-top: 5px;
+  float: right;
+}
+
+input {
+  margin: 5px 0 5px 0;
+}
+
+.labelblock {
+  min-width: 80px;
+  display: inline-block;
+  margin: auto;
+}
+
+#loginbutton {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}

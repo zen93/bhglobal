@@ -1,0 +1,30 @@
+#searchbutton {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#searchbox {
+  width: 150px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#livesearch {
+  position:absolute;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  background: white;
+}
+.liveresults {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: inline-block;
+  word-wrap: break-word;
+}
+.liveresults:hover {
+  background: #f1f1f1;
+}
+.selectionresults {
+  padding: 0;
+  margin: 0;
+}

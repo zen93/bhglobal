@@ -1,0 +1,105 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 3px;
+}
+td {
+  text-align: center;
+}
+th {
+  background: #e73032;
+  color: white;
+}
+input[type="number"] {
+  width: 80px;
+  text-align: center;
+}
+h2 {
+  color: #e73032;
+}
+
+#navbar {
+  margin-right: 0px;
+}
+
+#menu {
+  float: right;
+  overflow: auto;
+  clear: both;
+}
+
+#menu li {
+  float: left;
+  display: inline-block;
+  height: 20px;
+  width: 150px;
+  margin: 0px;
+  padding: 5px 0px;
+  background: #e73032;
+  color: white;
+  text-align: center;
+
+}
+
+#menu li:hover {
+  background: #747474;
+}
+
+#menu a{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#sidemenu {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  /*clear: both;
+  float: left;
+  overflow: auto;*/
+
+}
+
+#sidebar li{
+  width: 100px;
+  list-style: none;
+  min-height: 20px;
+  margin: 0px;
+  padding: 5px;
+  background: #e73032;
+  color: white;
+  text-align: center;
+}
+
+#sidebar li:hover {
+  background: #747474;
+}
+
+#sidebar a {
+  width: inherit;
+  text-decoration: none;
+}
+
+#main {
+  width: auto;
+  margin: auto;
+  margin-left: 150px;
+  /*margin-top: 100px;*/
+}
+
+.update {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 0;
+  margin-right: 3px;
+}

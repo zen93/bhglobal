@@ -1,0 +1,73 @@
+#wrapper {
+  font-family: sans-serif;
+  width: 900px;
+  margin: auto;
+}
+
+.error {
+  font-size: 10px;
+  text-align: center;
+  margin: auto;
+  color: red;
+}
+
+input {
+  margin: 5px 0 5px 0;
+}
+
+input {
+  border: solid 1px black;
+}
+
+input:hover {
+  border: solid 1px red;
+}
+
+input:focus {
+  border: solid 1px yellow;
+  outline: none;
+}
+
+input[type="submit"] {
+  border: solid 1px black;
+  background: #e73032;
+  color: white;
+  font-weight: bold;
+}
+
+input[type="submit"]:active {
+  border: solid 1px black;
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background: #747474;
+}
+
+input[type="button"] {
+  border: solid 1px black;
+  background: #e73032;
+  color: white;
+  font-weight: bold;
+}
+input[type="button"]:active {
+  border: solid 1px black;
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+input[type="button"]:hover {
+  background: #747474;
+}
+
+a {
+  color: #e73032;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

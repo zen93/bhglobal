@@ -1,0 +1,3 @@
+MAILTO=flammable.akshay@gmail.com
+0 10 * * * /var/www/python/tenders.py >/dev/null
+0 */3 * * * /var/www/python/dashboard.py >/dev/null
